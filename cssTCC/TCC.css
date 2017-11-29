@@ -5,6 +5,8 @@
     margin-right: 20px; 
     margin-top: 30px;
     margin-bottom: 20px;
+    border-radius:8px;
+    border:2px solid;
 	}
 
 nav{
@@ -225,3 +227,18 @@ background-color: black;
     margin-top:21px;
 }
 
+.texTerre{
+    display:none;
+}
+
+.textSobra{
+    display: none;
+}
+
+.textCasa{
+    display: none;
+}
+
+.textApart{
+    display: none;
+}
