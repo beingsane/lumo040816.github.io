@@ -1,11 +1,11 @@
 .image{
 	
 	height: 300px;
-    margin-left: 20px;
-    margin-right: 20px; 
-    margin-top: 30px;
-    margin-bottom: 20px;
-    border-radius:8px;
+    margin-left: 12px;
+    margin-right: 12px; 
+    margin-top: 15px;
+    margin-bottom: 5px;
+    border-radius:6px;
     border:2px solid;
 	}
 
@@ -43,15 +43,14 @@ nav{
 
 
 nav>ul>li{
-    border-right-style:solid;
-    border-right-width:3px;
-    border-color:white;
-    padding:10px;
-    width:150px;
+    padding:14px;
+    width:167px;
     height:62px;
     text-align:center; 
     float: left;
     cursor: pointer;
+    font-family: gothic;
+
 }
 
 
@@ -60,8 +59,13 @@ nav>ul>li{
     list-style:none;
     margin-top:0px;
     background-color:rgb(1, 1, 59);
-    border:solid 2px;
-    border-color:white;
+    border:2px solid;
+}
+
+
+@font-face{
+    font-family: gothic;
+    src: url("fontsTCC/gothic.ttf") 
 }
 
 @font-face{
@@ -77,24 +81,24 @@ nav>ul>li{
 }
 
 .titulo{
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
     margin:0 auto;
+    margin-top: 2px;
+    font-family: Flamante;
 }
 
 #imgP{
     float: left;
-    height:58px;
-    width:100px;
-    border:2px solid;
-    border-color: white;
-    margin:2px;
-    border-radius:5px;
+    height:60px;
+    width:150px;
     cursor: pointer;
 }
 
 #corpo{
-background-color: black;
+background-image: url(../imgTCC/predios2.jpg);
+background-repeat: no-repeat;
+background-size:120% 120%; 
 }
 
 #PGP{
@@ -103,22 +107,28 @@ background-color: black;
    height:803px;
    border:2px solid;
    border-color: white;
+   background-color: black;
 }
 
 .apartamento{
     display:none;
+    margin-top: 22px;
 }
 
 .casa{
     display:none;
+    margin-top: 22px;
 }
 
 .sobrado{
     display:none;
+    margin-top: 22px;
 }
 
 .terreno{
     display: none;
+    margin-top: 15px;
+    
 }
 
 #FP{
@@ -242,3 +252,50 @@ background-color: black;
 .textApart{
     display: none;
 }
+
+.btSinFaP{
+    display:none;
+}
+
+.btSinFte{
+    display:none;
+}
+
+.btSinFsO{
+    display:none;
+}
+
+.btSinFcA{
+    display:none;
+}
+
+
+.casa1{
+    height: 300px;
+    width:338px;
+    margin-left: 5px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 2px;
+    border: 2px solid;
+}
+
+.card{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 285px;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+h6{
+    text-decoration: underline;
+}
+
