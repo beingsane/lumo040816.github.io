@@ -271,15 +271,14 @@ background-size:120% 120%;
 
 
 .casa1{
-    height: 300px;
-    width:338px;
-    margin-left: 5px;
-    margin-right: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    border-radius: 2px;
-    border: 2px solid;
+    height:300px;
+    width:350px;  
+    overflow: hidden;
 }
+
+
+.casa1 { transition: all .2s ease-in-out; }
+.casa1:hover { transform: scale(1.1);}
 
 .card{
     position: relative;
