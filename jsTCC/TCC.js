@@ -8,7 +8,6 @@ $("#btTerreno").click(function(){
     $(".apartamento").hide()
   });
 
-
 $("#btSobrado").click(function(){
     $(".sobrado").show();
     $(".terreno").hide();
@@ -33,6 +32,15 @@ $("#btCasa").click(function(){
     $("#PGP").hide();
     $(".apartamento").show();
   });
+  
+  $("#btEmpresa").click(function(){
+    $(".terreno").hide();
+    $(".sobrado").hide();
+    $(".casa").hide();  
+    $("#PGP").hide();
+    $(".apartamento").hide();
+  });
+
 
 $("#imgP").click(function(){
   $(".sobrado").hide();
