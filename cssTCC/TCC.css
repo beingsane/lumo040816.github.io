@@ -99,6 +99,7 @@ nav>ul>li{
 background-image: url(../imgTCC/predios2.jpg);
 background-repeat: no-repeat;
 background-size:120% 120%; 
+background-attachment: fixed;
 }
 
 #PGP{
@@ -313,3 +314,4 @@ h6{
 .topTE{
     margin-top: 15px;
 }
+
