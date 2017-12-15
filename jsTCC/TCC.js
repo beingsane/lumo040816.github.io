@@ -5,7 +5,15 @@ $("#btTerreno").click(function(){
     $(".sobrado").hide();
     $(".casa").hide();  
     $("#PGP").hide();
-    $(".apartamento").hide()
+    $(".apartamento").hide();
+    $( "#btTerreno" ).css( "color", "black" );
+    $( "#btTerreno" ).css( "background-color", "white" );
+    $( "#btSobrado" ).css( "color", "white" );
+    $( "#btSobrado" ).css( "background-color", "black" );
+    $( "#btCasa" ).css( "color", "white" );
+    $( "#btCasa" ).css( "background-color", "black" );
+    $( "#btAparta" ).css( "color", "white" );
+    $( "#btAparta" ).css( "background-color", "black" );
   });
 
 $("#btSobrado").click(function(){
@@ -14,6 +22,14 @@ $("#btSobrado").click(function(){
     $(".casa").hide();
     $("#PGP").hide();
     $(".apartamento").hide()
+    $( "#btSobrado" ).css( "color", "black" );
+    $( "#btSobrado" ).css( "background-color", "white" );
+    $( "#btTerreno" ).css( "color", "white" );
+    $( "#btTerreno" ).css( "background-color", "black" );
+    $( "#btCasa" ).css( "color", "white" );
+    $( "#btCasa" ).css( "background-color", "black" );
+    $( "#btAparta" ).css( "color", "white" );
+    $( "#btAparta" ).css( "background-color", "black" );
 });
 
 $("#btCasa").click(function(){
@@ -22,6 +38,14 @@ $("#btCasa").click(function(){
   $(".apartamento").hide();
   $("#PGP").hide();
   $(".casa").show();
+  $( "#btCasa" ).css( "color", "black" );
+  $( "#btCasa" ).css( "background-color", "white" );
+  $( "#btSobrado" ).css( "color", "white" );
+  $( "#btSobrado" ).css( "background-color", "black" );
+  $( "#btTerreno" ).css( "color", "white" );
+  $( "#btTerreno" ).css( "background-color", "black" );
+  $( "#btAparta" ).css( "color", "white" );
+  $( "#btAparta" ).css( "background-color", "black" );
   });
  
  
@@ -31,23 +55,22 @@ $("#btCasa").click(function(){
     $(".casa").hide();
     $("#PGP").hide();
     $(".apartamento").show();
+    $( "#btAparta" ).css( "color", "black" );
+    $( "#btAparta" ).css( "background-color", "white" );
+    $( "#btCasa" ).css( "color", "white" );
+    $( "#btCasa" ).css( "background-color", "black" );
+    $( "#btSobrado" ).css( "color", "white" );
+    $( "#btSobrado" ).css( "background-color", "black" );
+    $( "#btTerreno" ).css( "color", "white" );
+    $( "#btTerreno" ).css( "background-color", "black" );
   });
   
-  $("#btEmpresa").click(function(){
-    $(".terreno").hide();
-    $(".sobrado").hide();
-    $(".casa").hide();  
-    $("#PGP").hide();
-    $(".apartamento").hide();
-  });
-
-
-$("#imgP").click(function(){
-  $(".sobrado").hide();
-  $(".terreno").hide();
-  $(".casa").hide();
-  $(".apartamento").hide();
-  $("#PGP").show();
+  $("#imgP").click(function(){
+   $(".sobrado").hide();
+   $(".terreno").hide();
+   $(".casa").hide();
+   $(".apartamento").hide();
+   $("#PGP").show(); 
 });
 
 
