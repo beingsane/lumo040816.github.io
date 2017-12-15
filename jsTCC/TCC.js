@@ -71,6 +71,14 @@ $("#btCasa").click(function(){
    $(".casa").hide();
    $(".apartamento").hide();
    $("#PGP").show(); 
+   $( "#btCasa" ).css( "color", "white" );
+   $( "#btCasa" ).css( "background-color", "black" );
+   $( "#btSobrado" ).css( "color", "white" );
+   $( "#btSobrado" ).css( "background-color", "black" );
+   $( "#btTerreno" ).css( "color", "white" );
+   $( "#btTerreno" ).css( "background-color", "black" );
+   $( "#btAparta" ).css( "color", "white" );
+   $( "#btAparta" ).css( "background-color", "black" );
 });
 
 
